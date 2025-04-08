@@ -24,37 +24,40 @@ const Projects = () => {
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["MongoDB", "Express JS", "React JS", "Node JS"],
+      technologies: ["Python", "SQL", "GenAI", "Streamlit"],
       links: [
         {
-          url: "https://github.com/TCD-ASE-6/Nuharc",
+          url: "https://github.com/Sowmiya81/QueryGen-AI-Natural-Language-SQL-Generator",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Woyse - A Multilingual Entity Recognition System",
+      cardTitle: "MarketMind: End-to-End Stock Price Prediction Software",
       cardDetailedText: [
-        "Build an end-to-end intent and entity recognition microservice in Django.",
-        "Built using Python as a main stack, and used Tornado for socket connection.",
+        "Developed an LSTM based predictive model with a Flask web interface to forecast stock prices using real-time inputs,achieving a prediction accuracy of 94%.",
+        "Optimized deployment workflows by implementing a robust CI/CD pipeline with Docker containerization and Heroku, reducing deployment time from 20s to 10s.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Django", "Rasa"],
-      links: [],
+      technologies: ["Python", "Flask", "Docker", "Heroku"],
+      links: [
+        url: "https://github.com/Sowmiya81/MarketMind",
+        text: "View Source Code",
+      ],
     },
     {
-      cardTitle: "Limitless File Sharing App",
+      cardTitle: "CycleGAN-Enhanced MRI Style Transfer",
       cardDetailedText: [
-        "App that allows you to share ANY amount of data from one system to another.",
-        "The file is encoded using base64, then it is split into chunks and uploaded to Google Sheets. While downloading the serial order is maintained and it is decoded at client’s end.",
+        "Utilized CycleGAN for MRI contrast generation, enhancing diagnostic diversity with a 30% improvement in the clarity of image conversions.",
+        "Attained a 25% increase in diagnostic accuracy by transforming T2-weighted MRI images into T1-weighted images and vice versa using advanced style transfer techniques.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Flask", "API"],
+      technologies: ["CycleGAN", "Python", "Image Processing"],
       links: [
         {
-          url: "https://github.com/vinay-deshmukh/Limitless-Client",
+          url: "https://github.com/Sowmiya81/CycleGAN-Enhanced-MRI-Style-Transfer",
           text: "View Source Code",
         },
       ],
