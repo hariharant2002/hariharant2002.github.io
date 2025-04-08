@@ -10,11 +10,11 @@ import Contact from "./Contact";
 const Main = () => (
   <main id="main">
     <About />
+    <Education />
     <Experience />
     <Projects />
     <Skills />
     <Achievements />
-    <Education />
     <Contact />
     <hr />
     <Footer />
