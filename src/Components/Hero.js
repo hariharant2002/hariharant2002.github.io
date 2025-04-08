@@ -12,16 +12,16 @@ export default function Hero() {
       <Container data-aos="zoom-in" data-aos-delay="500">
         <Row>
           <Col lg={6} className="item-center">
-            <h1>Bhushan Borole</h1>
+            <h1>Sowmiyalakshmi Ganesh</h1>
             <br />
             <p>
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Developer, Tabla Player, Gamer"
+                data-typed-items="Developer, Data Scientist, ML Enthusiast"
               >
                 <Typed
-                  strings={["Developer", "Tabla Player", "Gamer"]}
+                  strings={["Developer", "Data Scientist", "ML Enthusiast"]}
                   loop
                   typeSpeed={90}
                   backSpeed={60}
@@ -40,16 +40,13 @@ export default function Hero() {
               <a href="https://www.youtube.com/channel/UC8TXgNmZW2hMis074yGOTUQ">
                 <i class="bx bxl-youtube"></i>
               </a>
-              <a href="https://www.instagram.com/bhushan_borole_/">
-                <i class="bx bxl-instagram"></i>
-              </a>
-              <a href="https://github.com/bhushan-borole">
+              <a href="https://github.com/sowmiya81">
                 <i class="bx bxl-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/bhushan-borole/">
+              <a href="https://www.linkedin.com/in/sowmiyalkshmi-ganesh/">
                 <i class="bx bxl-linkedin"></i>
               </a>
-              <a href="mailto:borolebhushan8@gmail.com">
+              <a href="mailto:sowmiyalakshmig@gmail.com">
                 <i class="bx bx-envelope"></i>
               </a>
             </div>
