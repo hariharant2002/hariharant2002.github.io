@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-sg/static/css/main.58c0d491.chunk.css",
-    "main.js": "/portfolio-sg/static/js/main.e74d10fb.chunk.js",
-    "main.js.map": "/portfolio-sg/static/js/main.e74d10fb.chunk.js.map",
+    "main.js": "/portfolio-sg/static/js/main.034f7a28.chunk.js",
+    "main.js.map": "/portfolio-sg/static/js/main.034f7a28.chunk.js.map",
     "runtime-main.js": "/portfolio-sg/static/js/runtime-main.66d06e08.js",
     "runtime-main.js.map": "/portfolio-sg/static/js/runtime-main.66d06e08.js.map",
     "static/css/2.5d0dfc48.chunk.css": "/portfolio-sg/static/css/2.5d0dfc48.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.58c0d491.chunk.css.map": "/portfolio-sg/static/css/main.58c0d491.chunk.css.map",
     "static/js/2.a20714ff.chunk.js.LICENSE.txt": "/portfolio-sg/static/js/2.a20714ff.chunk.js.LICENSE.txt",
     "static/media/Mine-UCI1.0e97bb91.jpg": "/portfolio-sg/static/media/Mine-UCI1.0e97bb91.jpg",
-    "static/media/bhushan_2.72ec3b24.jpeg": "/portfolio-sg/static/media/bhushan_2.72ec3b24.jpeg",
+    "static/media/My cutieee.3a1a5e1f.jpeg": "/portfolio-sg/static/media/My cutieee.3a1a5e1f.jpeg",
     "static/media/bootstrap-icons.css": "/portfolio-sg/static/media/bootstrap-icons.7d38a258.woff",
     "static/media/boxicons.min.css": "/portfolio-sg/static/media/boxicons.cbd149c5.ttf",
     "static/media/google_assistant.5421e7b9.png": "/portfolio-sg/static/media/google_assistant.5421e7b9.png",
@@ -28,6 +28,6 @@
     "static/css/2.5d0dfc48.chunk.css",
     "static/js/2.a20714ff.chunk.js",
     "static/css/main.58c0d491.chunk.css",
-    "static/js/main.e74d10fb.chunk.js"
+    "static/js/main.034f7a28.chunk.js"
   ]
 }
