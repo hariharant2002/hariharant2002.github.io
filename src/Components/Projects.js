@@ -42,9 +42,11 @@ const Projects = () => {
       }),
       technologies: ["Python", "Flask", "Docker", "Heroku"],
       links: [
-        url: "https://github.com/Sowmiya81/MarketMind",
-        text: "View Source Code",
-      ],
+        {
+          url: "https://github.com/Sowmiya81/MarketMind",
+          text: "View Source Code",
+        },
+      ]
     },
     {
       cardTitle: "CycleGAN-Enhanced MRI Style Transfer",
