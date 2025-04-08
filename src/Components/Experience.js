@@ -8,45 +8,43 @@ import WorkIcon from "@material-ui/icons/Work";
 export default function Experience() {
   const items = [
     {
-      date: "September 2022 - Present",
-      cardTitle: "Microsoft",
-      cardSubtitle: "Software Engineer",
+      date: "Jan 2024 - May 2024",
+      cardTitle: "Indian Institute of Technology, Tirupati",
+      cardSubtitle: "Machine Learning Intern",
       cardDetailedText: [
-        "Developing automated systems that detect security issues and manage workflows across Azure Identity services on a global scale.",
-        "Implement privacy-enhancing technologies to ensure compliance with applicable privacy laws and regulations.",
+        "Designed an advanced liver disease diagnosis system leveraging deep learning and computer vision, through Python-based image processing pipelines and custom neural network architectures.",
+        "Engineered a PyTorch based Unified Transformer model, by improvising attention mechanisms and feature extraction layers to enhance the diagnostic accuracy from 80% to 92%.",
+        "Enhanced image pre-processing with histogram equalization using OpenCV and fine-tuned the model with the LDAM loss function for addressing skewed data.",
+        "Visualized interactive medical imaging dashboards using Tableau to track model performance metrics and lesion detection patterns, allowing real-time monitoring of diagnostic accuracy across different liver conditions.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "November 2020 – February 2021",
-      cardTitle: "Mobisy Technologies",
-      cardSubtitle: "Research & Development Intern",
+      date: "May 2023 – July 2023",
+      cardTitle: "ISRO Liquid Propulsion Systems Centre",
+      cardSubtitle: "Machine Learning Intern",
       cardDetailedText: [
-        "Collected JSON data by web-scraping, using open API end points and storing it in a RDBMS.",
-        "Responsible for building SKU Classification system using the collected data.",
+        "Developed an image segmentation and defect detection system for aviation sub-components applying ML techniques.",
+        "Utilized the Canny algorithm from SciKits to improve edge detection, which accelerated the segmentation process, reducing the image inspection time from 2m to 1m.",
+        "Implemented the U-Net model using TensorFlow for its ability to preserve spatial features and accurately localize defects through its encoder-decoder architecture with skip connections",
+        "Achieved an improved accuracy of 89%, validated using Cohen’s Kappa value of 0.85 , indicating strong agreement and reliable defect detection performance.",   
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "September 2019 – October 2019",
-      cardTitle: "Techskills IT Consultants",
-      cardSubtitle: "Backend Developer",
+      date: "Nov 2022 – Jan 2023",
+      cardTitle: "Vellore Institute of Technology",
+      cardSubtitle: "Research Assistant",
       cardDetailedText: [
-        "Developed applications using Spring Framework for Backend Restful API’s.",
-        "Wrote SQL/JPQL queries for Data persistence using Spring Data JPA.",
+        "Architected a federated learning pipeline using the Flower framework to train a DenseNet-121 model across 3 distributed nodes, achieving 80% accuracy while maintaining data privacy.",
+        "Achieved a 20% reduction in memory usage on the central server through an innovative approach, optimizing overall computational efficiency and system performance.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
-    {
-      date: "August 2018 – January 2019",
-      cardTitle: "TechSkills IT Consultants",
-      cardSubtitle: "Fullstack Developer Intern",
-      cardDetailedText:
-        "Developed a Meeting App website which handles all the data that happens in a meeting. In this project I developed several REST API's using Spring Boot and used the MVC architecture. These API's are being consumed in the frontend.",
-    },
+    
   ];
 
   return (

@@ -9,7 +9,7 @@ const Achievements = () => {
     const items = [
         {
             img: tf_badge,
-            cardTitle: "Tensorflow Developer Certificate",
+            cardTitle: "AWS Solutions Architech",
             cardText: "Issued on: <br/> April 18, 2020",
             btnText: "See Credential",
             btnUrl: "https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373",
@@ -20,19 +20,7 @@ const Achievements = () => {
             cardText: "Issued on: <br/> June 14, 2019",
             btnText: "See Credential",
             btnUrl: "https://www.youracclaim.com/badges/a5e09eea-6e4e-4934-bc2e-1f68679c1bb3/linked_in_profile",
-        },
-        {
-            img: ocajp,
-            cardTitle: "Oracle Certified Programmer",
-            cardText: "Issued on: <br/> July 20, 2018",
-            btnText: "See Credential",
-            btnUrl: "https://www.youracclaim.com/badges/caf3f573-a61d-4e0e-8560-5353a6a83693/linked_in_profile",
-        },
-        {
-            img: google_assistant,
-            cardTitle: "Google Assistant Developer",
-            cardText: "Developed a game called Amazing Riddles.",
-        },
+        }
     ];
     return (
         <section id="achievements" class="about background-alt">
