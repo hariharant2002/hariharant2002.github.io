@@ -15,8 +15,8 @@ export default function About() {
           <Col lg={4} className="d-flex justify-content-center">
             <img
               src={img}
-              height="100%"
-              width="100%"
+              height="75%"
+              width="75%"
               style={{ borderRadius: "50%" }}
             />
           </Col>
