@@ -76,7 +76,7 @@ export default function Hero() {
             <img
               src={img}
               height="100%"
-              width="65%"
+              width="100%"
               style={{
                 borderRadius: "30px",
               }}

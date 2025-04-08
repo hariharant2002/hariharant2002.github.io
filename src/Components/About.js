@@ -16,7 +16,7 @@ export default function About() {
             <img
               src={img}
               height="100%"
-              width="50%"
+              width="100%"
               style={{ borderRadius: "50%" }}
             />
           </Col>

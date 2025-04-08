@@ -1,26 +1,41 @@
-import tf_badge from "./images/tf_badge.png";
-import mta from "./images/mta.png";
-import ocajp from "./images/ocajp.png";
-import google_assistant from "./images/google_assistant.png";
+import aws from "./images/aws.png";
+import udemy from "./images/udemy.png";
+import postman from "./images/postman.png";
+import unim from "./images/unim.png";
 import Button from "@material-ui/core/Button";
 import Card from "react-bootstrap/Card";
 
 const Achievements = () => {
     const items = [
         {
-            img: tf_badge,
-            cardTitle: "AWS Solutions Architech",
-            cardText: "Issued on: <br/> April 18, 2020",
+            img: aws,
+            cardTitle: "AWS Certified Solutions Architect - Associate",
+            cardText: "Issued on: <br/> December 27, 2024",
             btnText: "See Credential",
-            btnUrl: "https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373",
+            btnUrl: "https://www.credly.com/badges/e99b394d-869a-4d71-935f-fcbff6d08078",
         },
         {
-            img: mta,
-            cardTitle: "Microsoft Technical Associate",
-            cardText: "Issued on: <br/> June 14, 2019",
+            img: udemy,
+            cardTitle: "The Complete Machine Learning Course with Python",
+            cardText: "Issued on: <br/> July 26, 2024",
             btnText: "See Credential",
-            btnUrl: "https://www.youracclaim.com/badges/a5e09eea-6e4e-4934-bc2e-1f68679c1bb3/linked_in_profile",
-        }
+            btnUrl: "https://www.udemy.com/certificate/UC-8b671ec0-4e4a-49c2-8c5b-1030e08994c1/",
+        },
+        {
+            img: postman,
+            cardTitle: "Postman API Fundamentals Student Expert",
+            cardText: "Issued on: <br/> June 30, 2024",
+            btnText: "See Credential",
+            btnUrl: "https://badgr.com/public/assertions/LTmfbbuOTNmvU7l5NQP6AQ?identity__email=sowmiyalakshmig@gmail.com",
+        },
+        {
+            img: unim,
+            cardTitle: "Programming for Everybody",
+            cardText: "Issued on: <br/> June 27, 2022",
+            btnText: "See Credential",
+            btnUrl: "https://www.coursera.org/account/accomplishments/verify/7G4MVFV4TRP9",
+        },
+
     ];
     return (
         <section id="achievements" class="about background-alt">

@@ -15,16 +15,12 @@ import RemoveIcon from "@material-ui/icons/Remove";
 const Projects = () => {
   const items = [
     {
-      cardTitle: "Nuharc - Smart City Disaster Report App",
+      cardTitle: "QueryGen AI: Natural Language to SQL Generator",
       cardDetailedText: [
-        "App to simulate disasters in Dublin.",
-        "Realtime traffic reporting upto 300ms latency.",
-        "Combines different velocity data streams to give a 99.9% accurate data.",
-        "Real time changes of disasters and re-routing of current users using sockets implementation.",
-        "All Emergency services directed towards the disaster as soon as someone reports.",
-        "Entire application is running in a dockerized container and hosted in Azure VM.",
-        "From scratch implementation of Load Balancing Algorithm (Weighted Round Robin) with Healthchecks.",
-        "All data is stored in NoSQL MongoDB.",
+        "Contributed to an intuitive full-stack application for automated database query generation and execution.",
+        "Created vector embeddings of tables present in database schema using Langchain, stored the results in Pinecone database.",
+        "Performed similarity search of the user’s query with the generated vector embeddings to find the top 5 relevant tables.",
+        "Integrated OpenAI’s language model to generate SQL/NoSQL queries by providing the model with the user’s prompt along with the relevant tables.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
