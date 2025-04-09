@@ -11,6 +11,7 @@ import { useState } from "react";
 import CodeIcon from "@material-ui/icons/Code";
 import IconButton from "@material-ui/core/IconButton";
 import RemoveIcon from "@material-ui/icons/Remove";
+import Tooltip from "@material-ui/core/Tooltip"; // ✅ Import Tooltip
 
 const Projects = () => {
   const items = [
@@ -21,9 +22,7 @@ const Projects = () => {
         "Created vector embeddings of tables present in database schema using Langchain, stored the results in Pinecone database.",
         "Performed similarity search of the user’s query with the generated vector embeddings to find the top 5 relevant tables.",
         "Integrated OpenAI’s language model to generate SQL/NoSQL queries by providing the model with the user’s prompt along with the relevant tables.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      ].map((text) => <li>{text}</li>),
       technologies: ["Python", "SQL", "GenAI", "Streamlit"],
       links: [
         {
@@ -37,25 +36,21 @@ const Projects = () => {
       cardDetailedText: [
         "Developed an LSTM based predictive model with a Flask web interface to forecast stock prices using real-time inputs,achieving a prediction accuracy of 94%.",
         "Optimized deployment workflows by implementing a robust CI/CD pipeline with Docker containerization and Heroku, reducing deployment time from 20s to 10s.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      ].map((text) => <li>{text}</li>),
       technologies: ["Python", "Flask", "Docker", "Heroku"],
       links: [
         {
           url: "https://github.com/Sowmiya81/MarketMind",
           text: "View Source Code",
         },
-      ]
+      ],
     },
     {
       cardTitle: "CycleGAN-Enhanced MRI Style Transfer",
       cardDetailedText: [
         "Utilized CycleGAN for MRI contrast generation, enhancing diagnostic diversity with a 30% improvement in the clarity of image conversions.",
         "Attained a 25% increase in diagnostic accuracy by transforming T2-weighted MRI images into T1-weighted images and vice versa using advanced style transfer techniques.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      ].map((text) => <li>{text}</li>),
       technologies: ["CycleGAN", "Python", "Image Processing"],
       links: [
         {
@@ -69,9 +64,7 @@ const Projects = () => {
       cardDetailedText: [
         "Created a chatbot for Fin-tech companies for helping students regarding finances.",
         "Tech stack comprises of Django, Rasa NLU and Postgresql.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      ].map((text) => <li>{text}</li>),
       technologies: ["Python", "Django", "Rasa"],
       links: [
         {
@@ -85,9 +78,7 @@ const Projects = () => {
       cardDetailedText: [
         "It summarizes the given text into number of sentences or words in English and Punjabi.",
         "Created in Flask and deployed on Google App Engine.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      ].map((text) => <li>{text}</li>),
       technologies: ["Python", "GCP"],
       links: [
         {
@@ -141,12 +132,6 @@ const Projects = () => {
     setLessButton(false);
   };
 
-  const addButton = () => (
-    <Fab color="primary" color="blue" aria-label="add">
-      <AddIcon />
-    </Fab>
-  );
-
   return (
     <section id="projects" class="about background-alt">
       <div class="container" data-aos="fade-up">
@@ -196,10 +181,9 @@ const Projects = () => {
                   </p>
                   <div className="project-links">
                     {data.links.map((link, j) => (
-                      <div>
-                        <br></br>
+                      <div key={j}>
+                        <br />
                         <Button
-                          key={j} // eslint-disable-line react/no-array-index-key
                           variant="contained"
                           color="default"
                           target="_blank"
@@ -217,14 +201,16 @@ const Projects = () => {
                   iconOnClick={loadMore}
                   iconClassName="d-flex justify-content-center"
                   icon={
-                    <IconButton aria-label="add">
-                      <AddIcon
-                        style={{
-                          color: "#fff",
-                          marginTop: "0.1px",
-                        }}
-                      />
-                    </IconButton>
+                    <Tooltip title="Click for more projects" arrow>
+                      <IconButton aria-label="add">
+                        <AddIcon
+                          style={{
+                            color: "#fff",
+                            marginTop: "0.1px",
+                          }}
+                        />
+                      </IconButton>
+                    </Tooltip>
                   }
                   iconStyle={{
                     background: "#0563bb",
@@ -237,7 +223,7 @@ const Projects = () => {
                   iconOnClick={loadLess}
                   iconClassName="d-flex justify-content-center"
                   icon={
-                    <IconButton aria-label="add">
+                    <IconButton aria-label="remove">
                       <RemoveIcon
                         style={{
                           color: "#fff",
