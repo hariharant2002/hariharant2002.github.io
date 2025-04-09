@@ -1,5 +1,5 @@
 .skills-wrapper {
-    background-color: #2d2c2c; /* Updated */
+    background-color: #2d2c2c; /* Matches Achievements section background */
     min-height: 100vh;
     padding: 60px 20px;
     color: #fff;
@@ -20,18 +20,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    width: 100%;
     max-width: 1000px;
+    margin: 0 auto;  /* <-- this is key */
   }
   
+  
   .card {
-    background: #3a3a3a; /* Updated */
+    background: #343a40; /* Matches Achievements card background */
     border-radius: 16px;
     padding: 24px 30px;
     min-width: 250px;
     max-width: 280px;
     transition: transform 0.3s ease;
-    box-shadow: none; /* Removed glow */
+    box-shadow: none; /* Same as Achievements card (no glow) */
   }
   
   .card:hover {
@@ -40,7 +41,7 @@
   
   .card h2 {
     font-size: 1.2rem;
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.7); /* Matches Achievements title text color */
     margin-bottom: 15px;
     text-align: center;
   }
@@ -53,16 +54,23 @@
   }
   
   .tags span {
-    background-color: white; /* Updated */
-    color: black;            /* Updated */
+    background-color: white; /* Match minimal white pill look */
+    color: black;
     padding: 6px 14px;
     border-radius: 10px;
     font-size: 0.9rem;
-    border: none;            /* Removed border */
+    border: none;
     transition: background 0.3s ease;
   }
   
   .tags span:hover {
-    background-color: #e6e6e6; /* Subtle hover */
+    background-color: #e6e6e6;
   }
+  .section-title h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
   
