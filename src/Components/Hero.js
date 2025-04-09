@@ -1,4 +1,4 @@
-import img from "./images/Mine-UCI1.jpg";
+import img from "./images/sowms.jpg";
 import Typed from "react-typed";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -12,7 +12,7 @@ export default function Hero() {
       <Container data-aos="zoom-in" data-aos-delay="500">
         <Row>
           <Col lg={6} className="item-center">
-            <h1>Sowmiyalakshmi Ganesh</h1>
+            <h1>Sowmiya Ganesh</h1>
             <br />
             <p>
               I'm a&nbsp;
@@ -76,7 +76,7 @@ export default function Hero() {
             <img
               src={img}
               height="100%"
-              width="100%"
+              width="65%"
               style={{
                 borderRadius: "30px",
               }}

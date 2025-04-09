@@ -1,0 +1,68 @@
+.skills-wrapper {
+    background-color: #2d2c2c; /* Updated */
+    min-height: 100vh;
+    padding: 60px 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .card {
+    background: #3a3a3a; /* Updated */
+    border-radius: 16px;
+    padding: 24px 30px;
+    min-width: 250px;
+    max-width: 280px;
+    transition: transform 0.3s ease;
+    box-shadow: none; /* Removed glow */
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .tags span {
+    background-color: white; /* Updated */
+    color: black;            /* Updated */
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    border: none;            /* Removed border */
+    transition: background 0.3s ease;
+  }
+  
+  .tags span:hover {
+    background-color: #e6e6e6; /* Subtle hover */
+  }
+  
