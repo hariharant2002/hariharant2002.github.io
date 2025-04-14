@@ -29,7 +29,7 @@ const Projects = () => {
     {
       cardTitle: "MarketMind: End-to-End Stock Price Prediction Software",
       cardDetailedText: "I developed an LSTM-based predictive model capable of forecasting stock prices using real-time user inputs, presented through a responsive Flask web interface. The model achieved a prediction accuracy of 94%, offering reliable insights for short-term market trends. To streamline delivery, I implemented a robust CI/CD pipeline using Docker for containerization and deployed the application on Heroku. This optimization reduced deployment time from 20 seconds to just 10 seconds, significantly improving development efficiency and ensuring rapid updates for end-users.",
-      technologies: ["Python", "Flask", "Docker", "Heroku"],
+      technologies: ["Python", "Flask", "Docker", "Heroku","CI/CD"],
       links: [
         {
           url: "https://github.com/Sowmiya81/MarketMind",
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       cardTitle: "CycleGAN-Enhanced MRI Style Transfer",
       cardDetailedText: "I implemented a CycleGAN-based framework for MRI contrast generation, aimed at enhancing diagnostic diversity and visual clarity in medical imaging. By applying advanced style transfer techniques, I enabled seamless transformation between T1- and T2-weighted MRI scans, leading to a 30% improvement in image conversion clarity. This approach significantly contributed to diagnostic effectiveness, resulting in a 25% increase in accuracy by providing radiologists with enhanced and complementary imaging perspectives.",
-      technologies: ["CycleGAN", "Python", "Image Processing"],
+      technologies: ["CycleGAN", "PyTorch", "Image Processing"],
       links: [
         {
           url: "https://github.com/Sowmiya81/CycleGAN-Enhanced-MRI-Style-Transfer",
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       cardTitle: "Smart Shuttle Management and Monitoring Platform",
       cardDetailedText: "In a collaborative effort with a team of three, I spearheaded the design and development of a modernized front-end using HTML, CSS, and JavaScript, which significantly improved shuttle tracking efficiency by 25%. This project involved creating an authentication-based interface that streamlined user interactions and enhanced overall usability. On the back end, I implemented a real-time system using PHP, seamlessly integrated with MongoDB, which boosted data processing speed by 30%. Additionally, I focused on optimizing MySQL queries for route data and schedule management, achieving a 20% increase in retrieval performance. This optimization not only improved system efficiency but also garnered positive feedback from users, highlighting the enhanced usability of the application.",
-      technologies: ["Python", "Django", "Rasa"],
+      technologies: ["HTML", "CSS", "Javascript", "PHP","MongoDB"],
       links: [
         {
           url: "https://github.com/Sowmiya81/Smart-Shuttle-Management-System",
@@ -62,7 +62,7 @@ const Projects = () => {
     {
       cardTitle: "Web-based Food Delivery App",
       cardDetailedText: "Working alongside a team of four, I played a key role in developing a full-stack food delivery platform utilizing React.js for the front end and Spring Boot for the back end. Our project included implementing a secure role-based access control system to efficiently manage multiple vendors, as well as integrating the Stripe payment gateway to facilitate seamless transactions. On the back end, I constructed the infrastructure using Spring Boot and MySQL, designing RESTful APIs capable of handling multiple users and ensuring robust performance. For the front end, I leveraged React.js and Redux to create reusable components, which streamlined the codebase by 20%. This approach not only enhanced the platform's efficiency but also contributed to a more maintainable and scalable system.",
-      technologies: ["Python", "GCP"],
+      technologies: ["React.js", "Java Spring Boot","MySQL","Redux" ],
       links: [
         {
           url: "https://github.com/Sowmiya81/Web-based-Food-Delivery-App",
@@ -74,7 +74,7 @@ const Projects = () => {
       cardTitle: "Collaborative Cloud-based Task Management App",
       cardDetailedText:
         "I created responsive and dynamic components using Headless UI, incorporating real-time notifications to enhance team collaboration efficiency and accelerate project completion. Leading a team of three, I orchestrated the architecture of an innovative cloud-native task management platform using the MERN stack. This project pioneered real-time collaboration features that significantly boosted team productivity by 45%. On the backend, I spearheaded the development of a scalable infrastructure with Node.js and Express.js, focusing on crafting optimized MongoDB queries. This optimization improved resource utilization by 50%, ensuring a robust and efficient system that supported the platform's advanced features.",
-      technologies: ["HTML", "CSS", "JS", "PHP"],
+      technologies: ["Node.js", "Express.js", "MongoDB"],
       links: [
         {
           url: "https://github.com/Sowmiya81/Collaborative-Cloud-based-Task-Management-App",
