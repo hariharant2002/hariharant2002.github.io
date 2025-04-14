@@ -17,7 +17,6 @@ const Main = () => (
     <Skills />
     <Publications/>
     <Achievements />
-    <Contact />
     <hr />
     <Footer />
   </main>

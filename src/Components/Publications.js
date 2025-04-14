@@ -40,15 +40,15 @@ const Publications = () => {
                 <div className="section-title text-center">
                     <h2>Publications</h2>
                 </div>
-                <div className="row justify-content-center" >
+                <div className="row justify-content-center">
                     {items.map((data, i) => (
                         <div
-                            className="col-md-4 d-flex justify-content-center mb-4"
+                            className="col-md-3 d-flex justify-content-center mb-4"
                             key={i}
                         >
                             <Card
                                 style={{
-                                    width: "22rem",
+                                    width: "28rem", // Increased width
                                     background: "#343a40",
                                     padding: "20px",
                                 }}
@@ -65,7 +65,7 @@ const Publications = () => {
                                         {data.cardTitle}
                                     </Card.Title>
                                     <br />
-                                    <Card.Text style={{ color: "#74808a" }}>
+                                    <Card.Text style={{ color: "#74808a", textAlign: "justify" }}> {/* Justify text */}
                                         <div
                                             dangerouslySetInnerHTML={{
                                                 __html: data.cardText,

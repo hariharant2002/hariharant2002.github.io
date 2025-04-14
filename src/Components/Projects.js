@@ -17,13 +17,8 @@ const Projects = () => {
   const items = [
     {
       cardTitle: "QueryGen AI: Natural Language to SQL Generator",
-      cardDetailedText: [
-        "Contributed to an intuitive full-stack application for automated database query generation and execution.",
-        "Created vector embeddings of tables present in database schema using Langchain, stored the results in Pinecone database.",
-        "Performed similarity search of the user’s query with the generated vector embeddings to find the top 5 relevant tables.",
-        "Integrated OpenAI’s language model to generate SQL/NoSQL queries by providing the model with the user’s prompt along with the relevant tables.",
-      ].map((text) => <li>{text}</li>),
-      technologies: ["Python", "SQL", "GenAI", "Streamlit"],
+      cardDetailedText: "I contributed to the development of an intuitive full-stack application designed for automated database query generation and execution. Leveraging Langchain, I created vector embeddings of the database schema tables and stored them efficiently in a Pinecone vector database. When a user submitted a query, I implemented a similarity search mechanism to retrieve the top five most relevant tables based on the query’s semantic context. These results, combined with the user’s prompt, were then passed to OpenAI’s language model to dynamically generate accurate SQL or NoSQL queries. This seamless integration of language models and vector search enabled fast, intelligent query generation without requiring users to manually explore the database structure.",
+      technologies: [ "NoSQL", "GenAI", "Streamlit", "Pinecone", "Langchain"],
       links: [
         {
           url: "https://github.com/Sowmiya81/QueryGen-AI-Natural-Language-SQL-Generator",
@@ -33,10 +28,7 @@ const Projects = () => {
     },
     {
       cardTitle: "MarketMind: End-to-End Stock Price Prediction Software",
-      cardDetailedText: [
-        "Developed an LSTM based predictive model with a Flask web interface to forecast stock prices using real-time inputs,achieving a prediction accuracy of 94%.",
-        "Optimized deployment workflows by implementing a robust CI/CD pipeline with Docker containerization and Heroku, reducing deployment time from 20s to 10s.",
-      ].map((text) => <li>{text}</li>),
+      cardDetailedText: "I developed an LSTM-based predictive model capable of forecasting stock prices using real-time user inputs, presented through a responsive Flask web interface. The model achieved a prediction accuracy of 94%, offering reliable insights for short-term market trends. To streamline delivery, I implemented a robust CI/CD pipeline using Docker for containerization and deployed the application on Heroku. This optimization reduced deployment time from 20 seconds to just 10 seconds, significantly improving development efficiency and ensuring rapid updates for end-users.",
       technologies: ["Python", "Flask", "Docker", "Heroku"],
       links: [
         {
@@ -47,10 +39,7 @@ const Projects = () => {
     },
     {
       cardTitle: "CycleGAN-Enhanced MRI Style Transfer",
-      cardDetailedText: [
-        "Utilized CycleGAN for MRI contrast generation, enhancing diagnostic diversity with a 30% improvement in the clarity of image conversions.",
-        "Attained a 25% increase in diagnostic accuracy by transforming T2-weighted MRI images into T1-weighted images and vice versa using advanced style transfer techniques.",
-      ].map((text) => <li>{text}</li>),
+      cardDetailedText: "I implemented a CycleGAN-based framework for MRI contrast generation, aimed at enhancing diagnostic diversity and visual clarity in medical imaging. By applying advanced style transfer techniques, I enabled seamless transformation between T1- and T2-weighted MRI scans, leading to a 30% improvement in image conversion clarity. This approach significantly contributed to diagnostic effectiveness, resulting in a 25% increase in accuracy by providing radiologists with enhanced and complementary imaging perspectives.",
       technologies: ["CycleGAN", "Python", "Image Processing"],
       links: [
         {
@@ -60,58 +49,48 @@ const Projects = () => {
       ],
     },
     {
-      cardTitle: "Finance Assistant Chatbot",
-      cardDetailedText: [
-        "Created a chatbot for Fin-tech companies for helping students regarding finances.",
-        "Tech stack comprises of Django, Rasa NLU and Postgresql.",
-      ].map((text) => <li>{text}</li>),
+      cardTitle: "Smart Shuttle Management and Monitoring Platform",
+      cardDetailedText: "In a collaborative effort with a team of three, I spearheaded the design and development of a modernized front-end using HTML, CSS, and JavaScript, which significantly improved shuttle tracking efficiency by 25%. This project involved creating an authentication-based interface that streamlined user interactions and enhanced overall usability. On the back end, I implemented a real-time system using PHP, seamlessly integrated with MongoDB, which boosted data processing speed by 30%. Additionally, I focused on optimizing MySQL queries for route data and schedule management, achieving a 20% increase in retrieval performance. This optimization not only improved system efficiency but also garnered positive feedback from users, highlighting the enhanced usability of the application.",
       technologies: ["Python", "Django", "Rasa"],
       links: [
         {
-          url: "https://github.com/Sitanshuk/HackPython",
+          url: "https://github.com/Sowmiya81/Smart-Shuttle-Management-System",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Text Summarization",
-      cardDetailedText: [
-        "It summarizes the given text into number of sentences or words in English and Punjabi.",
-        "Created in Flask and deployed on Google App Engine.",
-      ].map((text) => <li>{text}</li>),
+      cardTitle: "Web-based Food Delivery App",
+      cardDetailedText: "Working alongside a team of four, I played a key role in developing a full-stack food delivery platform utilizing React.js for the front end and Spring Boot for the back end. Our project included implementing a secure role-based access control system to efficiently manage multiple vendors, as well as integrating the Stripe payment gateway to facilitate seamless transactions. On the back end, I constructed the infrastructure using Spring Boot and MySQL, designing RESTful APIs capable of handling multiple users and ensuring robust performance. For the front end, I leveraged React.js and Redux to create reusable components, which streamlined the codebase by 20%. This approach not only enhanced the platform's efficiency but also contributed to a more maintainable and scalable system.",
       technologies: ["Python", "GCP"],
       links: [
         {
-          url: "https://github.com/bhushan-borole/text-summarization",
+          url: "https://github.com/Sowmiya81/Web-based-Food-Delivery-App",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Meeting App",
+      cardTitle: "Collaborative Cloud-based Task Management App",
       cardDetailedText:
-        "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
+        "I created responsive and dynamic components using Headless UI, incorporating real-time notifications to enhance team collaboration efficiency and accelerate project completion. Leading a team of three, I orchestrated the architecture of an innovative cloud-native task management platform using the MERN stack. This project pioneered real-time collaboration features that significantly boosted team productivity by 45%. On the backend, I spearheaded the development of a scalable infrastructure with Node.js and Express.js, focusing on crafting optimized MongoDB queries. This optimization improved resource utilization by 50%, ensuring a robust and efficient system that supported the platform's advanced features.",
       technologies: ["HTML", "CSS", "JS", "PHP"],
       links: [
         {
-          url: "https://github.com/bhushan-borole/meeting-app",
+          url: "https://github.com/Sowmiya81/Collaborative-Cloud-based-Task-Management-App",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Justalk",
-      cardDetailedText: "A chat application made using React and Firebase Auth",
+      cardTitle: "AI Text Summarizer App",
+      cardDetailedText: "I led a team of three in the development of a scalable AI Text Summarizer application, utilizing a Node.js and Express.js backend. Our focus was on implementing a RESTful API architecture capable of processing over 500 daily requests, achieving an impressive 98% uptime. By incorporating caching mechanisms, we successfully reduced API response time by 25%. To enhance the application's capabilities, I engineered a seamless integration with Hugging Face's Inference API for natural language processing, which resulted in an 85% accuracy rate in text summarization. On the front end, I designed and developed a responsive interface using vanilla JavaScript, HTML5, and CSS3. Through meticulous code optimization and the implementation of lazy loading techniques, we achieved a 30% faster load time, significantly improving the user experience.",
       technologies: ["React JS", "Firebase"],
       links: [
         {
-          url: "https://github.com/bhushan-borole/justalk",
+          url: "https://github.com/Sowmiya81/Summarizer-Bot",
           text: "View Source Code",
-        },
-        {
-          url: "https://bhushan-borole.github.io/justalk/",
-          text: "View Demo",
-        },
+        }
       ],
     },
   ];

@@ -25,7 +25,7 @@ export default function About() {
             <h3>Data Scientist</h3>
             <br></br>
             <p style={{ color: "#728394" }}>
-              A passionate Full Stack Developer, Data Scientist and ML
+              A passionate Machine Learning Developer, Data Scientist and AI
               enthusiast.
             </p>
             <br></br>
@@ -58,6 +58,7 @@ export default function About() {
                     <i class="bi bi-chevron-right"></i> <strong>Email:</strong>{" "}
                     <span>
                       <a href="mailto:sowmiyalakshmig@gmail.com">
+                        sowmiyalakshmig@gmail.com
                       </a>
                     </span>
                   </li>

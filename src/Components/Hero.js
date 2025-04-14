@@ -37,8 +37,8 @@ export default function Hero() {
               </span>
             </p>
             <div class="social-links">
-              <a href="https://www.youtube.com/channel/UC8TXgNmZW2hMis074yGOTUQ">
-                <i class="bx bxl-youtube"></i>
+              <a href="https://leetcode.com/u/sowmiyalakshmig/">
+                <i class="bx bx-code"></i>
               </a>
               <a href="https://github.com/sowmiya81">
                 <i class="bx bxl-github"></i>

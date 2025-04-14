@@ -11,38 +11,22 @@ export default function Experience() {
       date: "Jan 2024 - May 2024",
       cardTitle: "Indian Institute of Technology, Tirupati",
       cardSubtitle: "Machine Learning Intern",
-      cardDetailedText: [
-        "Designed an advanced liver disease diagnosis system leveraging deep learning and computer vision, through Python-based image processing pipelines and custom neural network architectures.",
-        "Engineered a PyTorch based Unified Transformer model, by improvising attention mechanisms and feature extraction layers to enhance the diagnostic accuracy from 80% to 92%.",
-        "Enhanced image pre-processing with histogram equalization using OpenCV and fine-tuned the model with the LDAM loss function for addressing skewed data.",
-        "Visualized interactive medical imaging dashboards using Tableau to track model performance metrics and lesion detection patterns, allowing real-time monitoring of diagnostic accuracy across different liver conditions.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      cardDetailedText:
+        "In an effort to advance diagnostic tools for liver disease, I developed a deep learning–based system that leverages computer vision and custom neural network architectures to deliver highly accurate diagnoses. The core of the system was built using Python-driven image processing pipelines and an engineered Unified Transformer model in PyTorch. By innovating on attention mechanisms and enhancing feature extraction layers, I successfully improved diagnostic accuracy from 80% to 92%. To handle data imbalance, I integrated the LDAM loss function and further enhanced image preprocessing using histogram equalization techniques with OpenCV. To ensure transparency and track performance, I created interactive dashboards in Tableau that visualized key medical imaging metrics and lesion detection patterns, enabling real-time insights into model performance across a range of liver conditions."
     },
     {
       date: "May 2023 – July 2023",
       cardTitle: "ISRO Liquid Propulsion Systems Centre",
       cardSubtitle: "Machine Learning Intern",
-      cardDetailedText: [
-        "Developed an image segmentation and defect detection system for aviation sub-components applying ML techniques.",
-        "Utilized the Canny algorithm from SciKits to improve edge detection, which accelerated the segmentation process, reducing the image inspection time from 2m to 1m.",
-        "Implemented the U-Net model using TensorFlow for its ability to preserve spatial features and accurately localize defects through its encoder-decoder architecture with skip connections",
-        "Achieved an improved accuracy of 89%, validated using Cohen’s Kappa value of 0.85 , indicating strong agreement and reliable defect detection performance.",   
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      cardDetailedText:
+        "I engineered an image segmentation and defect detection system tailored for aviation sub-components, utilizing machine learning techniques to enhance inspection efficiency and accuracy. To accelerate the segmentation process, I integrated the Canny algorithm from SciKits, which significantly improved edge detection and reduced image inspection time from 2 minutes to just 1 minute. The core segmentation was powered by a U-Net model implemented in TensorFlow, chosen for its encoder-decoder architecture with skip connections that effectively preserved spatial features and precisely localized defects. This approach led to a detection accuracy of 89%, with performance reliability validated by a Cohen’s Kappa score of 0.85—demonstrating strong agreement and consistent defect identification."
     },
     {
       date: "Nov 2022 – Jan 2023",
       cardTitle: "Vellore Institute of Technology",
       cardSubtitle: "Research Assistant",
-      cardDetailedText: [
-        "Architected a federated learning pipeline using the Flower framework to train a DenseNet-121 model across 3 distributed nodes, achieving 80% accuracy while maintaining data privacy.",
-        "Achieved a 20% reduction in memory usage on the central server through an innovative approach, optimizing overall computational efficiency and system performance.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
+      cardDetailedText: 
+        "I designed and implemented a federated learning pipeline using the Flower framework to enable privacy-preserving model training across three distributed nodes. The system leveraged a DenseNet-121 architecture, collaboratively trained without centralizing sensitive data, ultimately achieving an accuracy of 80%. To enhance performance further, I introduced an innovative optimization strategy that reduced memory usage on the central server by 20%, significantly improving computational efficiency and system scalability while upholding strong privacy guarantees."
     },
     
   ];

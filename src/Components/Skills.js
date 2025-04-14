@@ -2,11 +2,11 @@ import React from 'react';
 import './Skills.css';
 
 const skillData = [
-  { title: 'Languages', skills: ['Java', 'Python', 'SQL'] },
-  { title: 'Frontend Development', skills: ['React', 'Next.js', 'Tailwind CSS', 'Redux'] },
-  { title: 'Backend Development', skills: ['Node.js', 'Express', 'REST APIs', 'GraphQL'] },
-  { title: 'Database', skills: ['MongoDB', 'PostgreSQL', 'MySQL'] },
-  { title: 'DevOps & Cloud', skills: ['Docker', 'AWS', 'Git'] },
+  { title: 'Languages', skills: ['Python', 'R', 'SQL/NoSQL', 'Java', 'JavaScript', 'HTML/CSS', 'C', 'C++'] },
+  { title: 'DevOps & Cloud', skills: ['AWS', 'Kubernetes', 'Docker', 'Google Cloud Console', 'Heroku'] },
+  { title: 'Machine Learning', skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Keras', 'OpenCV', 'Pandas', 'Apache Spark'] },
+  { title: 'Frameworks', skills: ['Flask', 'React', 'Next.js', 'Tailwind CSS', 'Redux', 'Express.js'] },
+  { title: 'Tools', skills: ['Tableau/Power BI', 'Power BI', 'Postman API'] },
 ];
 
 const Skills = () => {

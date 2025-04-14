@@ -11,37 +11,45 @@ const Education = () => {
     {
       cardTitle: "University of California, Irvine",
       cardSubtitle: "Master of Data Science",
-      coursesHead: "Courses: ",
-      cardDetailedText: [
-        "Machine Learning",
-        "Information Retrieval and Web Search",
-        "Data Analytics",
-        "Knowledge and Data Engineering",
-        "Advanced Software Engineering",
-        "Artificial Intelligence",
-        "Text Analytics",
-      ].map(function (course) {
-        return <li>{course}</li>;
-      }),
+      coursesHead: "Courses:",
+      cardDetailedText: {
+        courses: [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Deep Learning",
+          "Data Structures",
+          "Statistics",
+        ],
+        cgpa: "CGPA: 3.95",
+      },
       date: "2024 - 2025",
     },
     {
       cardTitle: "Vellore Institute Of Technology",
       cardSubtitle: "B.Tech in Computer Science and Engineering",
-      cardDetailedText: "CGPA: 3.89",
+      coursesHead: "Courses:",
+      cardDetailedText: {
+        courses: [
+          "Database Management",
+          "Cloud Computing",
+          "Computer Vision",
+          "Web Development Structures",
+        ],
+        cgpa: "CGPA: 3.89",
+      },
       date: "2020 - 2024",
     },
   ];
 
   return (
-    <section id="education" class="about background-alt">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
+    <section id="education" className="about background-alt">
+      <div className="container" data-aos="fade-up">
+        <div className="section-title">
           <h2>Education</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
+        <div className="row">
+          <div className="col-lg-12 d-flex justify-content-center">
             <VerticalTimeline className="custom-line">
               {items.map((data, i) => (
                 <VerticalTimelineElement
@@ -90,14 +98,20 @@ const Education = () => {
                   >
                     {data.coursesHead}
                   </h5>
+                  <ul style={{ paddingLeft: "20px", color: "#74808a" }}>
+                    {data.cardDetailedText.courses.map((course, index) => (
+                      <li key={index}>{course}</li>
+                    ))}
+                  </ul>
                   <p
                     style={{
+                      marginTop: "10px",
                       fontSize: "1em",
                       fontWeight: "350",
                       color: "#74808a",
                     }}
                   >
-                    {data.cardDetailedText}
+                    {data.cardDetailedText.cgpa}
                   </p>
                 </VerticalTimelineElement>
               ))}
