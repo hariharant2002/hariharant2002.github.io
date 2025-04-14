@@ -37,17 +37,19 @@ export default function Hero() {
               </span>
             </p>
             <div class="social-links">
-              <a href="https://leetcode.com/u/sowmiyalakshmig/">
-                <i class="bx bx-code"></i>
+              
+              <a href="https://www.linkedin.com/in/sowmiyalkshmi-ganesh/">
+                <i class="bx bxl-linkedin"></i>
               </a>
               <a href="https://github.com/sowmiya81">
                 <i class="bx bxl-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/sowmiyalkshmi-ganesh/">
-                <i class="bx bxl-linkedin"></i>
-              </a>
+              
               <a href="mailto:sowmiyalakshmig@gmail.com">
                 <i class="bx bx-envelope"></i>
+              </a>
+              <a href="https://leetcode.com/u/sowmiyalakshmig/">
+                <i class="bx bx-code"></i>
               </a>
             </div>
             <br />
