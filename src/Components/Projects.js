@@ -40,7 +40,7 @@ const Projects = () => {
     {
       cardTitle: "CycleGAN-Enhanced MRI Style Transfer",
       cardDetailedText: "I implemented a CycleGAN-based framework for MRI contrast generation, aimed at enhancing diagnostic diversity and visual clarity in medical imaging. By applying advanced style transfer techniques, I enabled seamless transformation between T1- and T2-weighted MRI scans, leading to a 30% improvement in image conversion clarity. This approach significantly contributed to diagnostic effectiveness, resulting in a 25% increase in accuracy by providing radiologists with enhanced and complementary imaging perspectives.",
-      technologies: ["CycleGAN", "PyTorch", "Image Processing"],
+      technologies: ["TensorFlow", "PyTorch", "Image Processing"],
       links: [
         {
           url: "https://github.com/Sowmiya81/CycleGAN-Enhanced-MRI-Style-Transfer",
